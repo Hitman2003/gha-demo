@@ -18,5 +18,3 @@ jobs:
           -name: Deploy the App
           run: echo "Deploying the App"
         
-
-          
