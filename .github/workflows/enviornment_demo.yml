@@ -4,10 +4,9 @@ env:
   APP_ENV: "dev"
 jobs:
   env_demo:
-  env:
-   APP_ENV: "test"
-    env_demo:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Connecting to Env
-        run: echo "App is connecting to $APP_ENV"
+   env:
+    APP_ENV: "test"
+  runs-on: ubuntu-latest
+  steps:
+    - name: Connecting to Env
+      run: echo "App is connecting to $APP_ENV"
